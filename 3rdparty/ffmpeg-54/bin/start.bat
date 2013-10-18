@@ -1,0 +1,1 @@
+ffplay -sync video -loglevel debug  -probesize 1000 "rtsp://192.168.0.1"

@@ -1,0 +1,35 @@
+﻿Build started 2013/10/10 22:37:57.
+     1>Project "C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\glfont\glfont_VS2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Win32\Debug\glfont.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\glfont.exe" /NOLOGO opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\glfont.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Win32\Debug\glfont.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\glfont.lib" /MACHINE:X86 Win32\Debug\glfont.obj
+         "..\..\..\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.lib"
+         "..\..\..\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\Win32\Debug\SDL2_ttf.lib"
+         glfont_VS2010.vcxproj -> C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\glfont\Win32\Debug\glfont.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Win32\Debug\glfont.exe;#1" /manifest Win32\Debug\glfont.exe.intermediate.manifest
+       PostBuildEvent:
+         Description: Copy SDL and data files
+         
+         copy /Y "..\..\..\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.dll" "C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\glfont\Win32\Debug\\SDL2.dll"
+         copy /Y "..\Win32\Debug\SDL2_ttf.dll" "C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\glfont\Win32\Debug\\SDL2_ttf.dll"
+         copy /Y "..\external\lib\x86\libfreetype-6.dll" "C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\glfont\Win32\Debug\\libfreetype-6.dll"
+         copy /Y "..\external\lib\x86\zlib1.dll" "C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\glfont\Win32\Debug\\zlib1.dll"
+         
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\glfont.unsuccessfulbuild".
+         Touching "Win32\Debug\glfont.lastbuildstate".
+     1>Done Building Project "C:\work\03-vdc\vdc\vdc\3rdparty\SDL2_ttf-2.0.12\VisualC\glfont\glfont_VS2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.48

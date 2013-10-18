@@ -1,0 +1,20 @@
+﻿Build started 2013/2/20 20:26:45.
+     1>Project "C:\work\src\istp\00-3rdparty\TinyThread++\build\vc10\TinyThread++.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\TinyThread++.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\TinyThread++.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\tinythread.cpp
+         tinythread.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\work\src\istp\00-3rdparty\TinyThread++\build\vc10\Release\TinyThread++.lib" /NOLOGO /LTCG Release\tinythread.obj
+         TinyThread++.vcxproj -> C:\work\src\istp\00-3rdparty\TinyThread++\build\vc10\Release\TinyThread++.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\TinyThread++.unsuccessfulbuild".
+         Touching "Release\TinyThread++.lastbuildstate".
+     1>Done Building Project "C:\work\src\istp\00-3rdparty\TinyThread++\build\vc10\TinyThread++.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.69

@@ -1,0 +1,18 @@
+﻿Build started 10/16/2013 1:11:54 PM.
+     1>Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\SDL-2.0.0-6940\VisualC\SDLmain\SDLmain_VS2010.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\SDL2main.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\include /I..\..\include\SDL /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0700 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\src\main\windows\SDL_windows_main.c
+         SDL_windows_main.c
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"Win32\Debug\SDL2main.lib" /NOLOGO Win32\Debug\SDL_windows_main.obj
+         SDLmain_VS2010.vcxproj -> C:\work\01-projects\50-VR\src\vdc\3rdparty\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\SDL2main.unsuccessfulbuild".
+         Touching "Win32\Debug\SDL2main.lastbuildstate".
+     1>Done Building Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\SDL-2.0.0-6940\VisualC\SDLmain\SDLmain_VS2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.52

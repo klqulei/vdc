@@ -1,0 +1,40 @@
+﻿Build started 3/20/2013 9:55:42 PM.
+     1>Project "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testsprite2\testsprite2_VS2010.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\testsprite2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0700 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\test\testsprite2.c
+         testsprite2.c
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\testsprite2.exe.embed.manifest.res" Win32\Debug\testsprite2_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\testsprite2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\testsprite2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testsprite2\Win32\Debug\testsprite2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\testsprite2.lib" /MACHINE:X86 Win32\Debug\testsprite2.exe.embed.manifest.res
+         Win32\Debug\testsprite2.obj
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLtest\Win32\Debug\SDL2test.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.lib"
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\testsprite2.exe.embed.manifest" /manifest Win32\Debug\testsprite2.exe.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\testsprite2.exe.embed.manifest.res" Win32\Debug\testsprite2_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\testsprite2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\testsprite2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testsprite2\Win32\Debug\testsprite2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\testsprite2.lib" /MACHINE:X86 Win32\Debug\testsprite2.exe.embed.manifest.res
+         Win32\Debug\testsprite2.obj
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLtest\Win32\Debug\SDL2test.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.lib"
+         testsprite2_VS2010.vcxproj -> C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testsprite2\Win32\Debug\testsprite2.exe
+       PostBuildEvent:
+         Description: Copy SDL and data files
+         copy "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\\SDL\Win32\Debug\SDL2.dll" "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testsprite2\Win32\Debug\\SDL2.dll"
+         copy "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\\..\test\icon.bmp" "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testsprite2\Win32\Debug\\icon.bmp"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\testsprite2.unsuccessfulbuild".
+         Touching "Win32\Debug\testsprite2.lastbuildstate".
+     1>Done Building Project "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testsprite2\testsprite2_VS2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.09

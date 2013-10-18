@@ -1,0 +1,50 @@
+﻿Build started 10/16/2013 1:19:58 PM.
+     1>Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\clitest\clitest.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\clitest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libcli\src\libcli\ /I..\libcli\src\plib\ /I"..\libcli\pthread-win32\include\\" /I..\libcli\src\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt clitest.cxx
+         clitest.cxx
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(200): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+                 c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(192) : while compiling class template member function 'LIBCLI::Command<C>::Command(C *,const char *,int (__thiscall LIBCLI::CLI::* )(char *,char **,int),LIBCLI::PRIVLEVEL,LIBCLI::MODE,const char *)'
+                 with
+                 [
+                     C=LIBCLI::CLI
+                 ]
+                 c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\clitest\clitest.cxx(51) : see reference to class template instantiation 'LIBCLI::Command<C>' being compiled
+                 with
+                 [
+                     C=LIBCLI::CLI
+                 ]
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(204): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(123): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+                 c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(115) : while compiling class template member function 'LIBCLI::Command<C>::Command(C *,const char *,LIBCLI::PRIVLEVEL,LIBCLI::MODE,const char *)'
+                 with
+                 [
+                     C=LIBCLI::CLI
+                 ]
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(127): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(238) : see declaration of 'strdup'
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\clitest.exe.embed.manifest.res" Debug\clitest_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Debug\clitest.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\Debug\ libcli.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\clitest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Debug\clitest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Debug\clitest.lib" /MACHINE:X86 Debug\clitest.exe.embed.manifest.res
+         Debug\clitest.obj
+         LINK : C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Debug\clitest.exe not found or not built by the last incremental link; performing full link
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\clitest.exe.embed.manifest" /manifest Debug\clitest.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         clitest.vcxproj -> C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Debug\clitest.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\clitest.unsuccessfulbuild".
+         Touching "Debug\clitest.lastbuildstate".
+     1>Done Building Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\clitest\clitest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.44

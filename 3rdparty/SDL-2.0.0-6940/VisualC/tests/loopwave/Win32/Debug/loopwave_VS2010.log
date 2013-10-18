@@ -1,0 +1,36 @@
+﻿Build started 3/20/2013 9:55:53 PM.
+     1>Project "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\loopwave\loopwave_VS2010.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\loopwave.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0700 /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\Test\Loopwave.c
+         Loopwave.c
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\loopwave.exe.embed.manifest.res" Win32\Debug\loopwave_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\loopwave.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\loopwave.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\loopwave\Win32\Debug\loopwave.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\loopwave.lib" /MACHINE:X86 Win32\Debug\loopwave.exe.embed.manifest.res
+         Win32\Debug\Loopwave.obj
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.lib"
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\loopwave.exe.embed.manifest" /manifest Win32\Debug\loopwave.exe.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\loopwave.exe.embed.manifest.res" Win32\Debug\loopwave_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\loopwave.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\loopwave.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\loopwave\Win32\Debug\loopwave.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\loopwave.lib" /MACHINE:X86 Win32\Debug\loopwave.exe.embed.manifest.res
+         Win32\Debug\Loopwave.obj
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.lib"
+         loopwave_VS2010.vcxproj -> C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\loopwave\Win32\Debug\loopwave.exe
+       PostBuildEvent:
+         Description: Copy SDL
+         copy "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\\SDL\Win32\Debug\SDL2.dll" "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\loopwave\Win32\Debug\\SDL2.dll"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\loopwave.unsuccessfulbuild".
+         Touching "Win32\Debug\loopwave.lastbuildstate".
+     1>Done Building Project "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\loopwave\loopwave_VS2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.68

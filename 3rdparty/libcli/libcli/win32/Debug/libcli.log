@@ -1,0 +1,23 @@
+﻿Build started 10/16/2013 1:18:37 PM.
+     1>Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\libcli\win32\libcli.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\libcli.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\src\libcli\ /I..\src\ /I..\src\plib\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _WINDOWS /D NOMINMAX /D _USE_MATH_DEFINES /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D __CRT_NONSTDC_NO_WARNINGS /D _REENTRANT /D "SYSCONFDIR=\"/usr/etc\"" /D UL_MSVC /D OPENALSDK /D HAVE_CONFIG_H /D FREEGLUT_LIB_PRAGMAS /D UL_WIN32 /D _CRT_SECURE_NO_DEPRECATE /D FREEGLUT_STATIC /D "VERSION=\"0.11.4\"" /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\plib\netSocket.cxx
+         netSocket.cxx
+       Lib:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Debug\libcli.lib" /NOLOGO "Debug\crypt-win.obj"
+         Debug\debug.obj
+         Debug\filter.obj
+         Debug\libcli.obj
+         Debug\netSocket.obj
+         libcli.vcxproj -> C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Debug\libcli.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\libcli.unsuccessfulbuild".
+         Touching "Debug\libcli.lastbuildstate".
+     1>Done Building Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\libcli\win32\libcli.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.61

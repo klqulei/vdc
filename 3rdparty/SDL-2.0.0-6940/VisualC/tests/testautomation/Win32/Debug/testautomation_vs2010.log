@@ -1,0 +1,85 @@
+﻿Build started 3/20/2013 9:55:56 PM.
+     1>Project "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testautomation\testautomation_vs2010.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\testautomation.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\..\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\test\testautomation.c ..\..\..\test\testautomation_audio.c ..\..\..\test\testautomation_clipboard.c ..\..\..\test\testautomation_main.c ..\..\..\test\testautomation_platform.c ..\..\..\test\testautomation_rect.c ..\..\..\test\testautomation_render.c ..\..\..\test\testautomation_rwops.c ..\..\..\test\testautomation_surface.c ..\..\..\test\testautomation_events.c ..\..\..\test\testautomation_keyboard.c ..\..\..\test\testautomation_video.c ..\..\..\test\testautomation_syswm.c ..\..\..\test\testautomation_sdltest.c ..\..\..\test\testautomation_mouse.c ..\..\..\test\testautomation_timer.c
+         testautomation_timer.c
+         testautomation_mouse.c
+         testautomation_sdltest.c
+         testautomation_syswm.c
+         testautomation_video.c
+         testautomation_keyboard.c
+         testautomation_events.c
+         testautomation_surface.c
+         testautomation_rwops.c
+         testautomation_render.c
+         testautomation_rect.c
+         testautomation_platform.c
+         testautomation_main.c
+     1>c:\work\01-projects\85-gstqt\sdl\sdl-2.0\sdl-2.0.0-6940\test\testautomation_main.c : warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+         testautomation_clipboard.c
+         testautomation_audio.c
+         testautomation.c
+         Generating Code...
+       ManifestResourceCompile:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\testautomation.exe.embed.manifest.res" Win32\Debug\testautomation_manifest.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\testautomation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\testautomation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testautomation\Win32\Debug\testautomation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\testautomation.lib" /MACHINE:X86 Win32\Debug\testautomation.exe.embed.manifest.res
+         Win32\Debug\testautomation.obj
+         Win32\Debug\testautomation_audio.obj
+         Win32\Debug\testautomation_clipboard.obj
+         Win32\Debug\testautomation_main.obj
+         Win32\Debug\testautomation_platform.obj
+         Win32\Debug\testautomation_rect.obj
+         Win32\Debug\testautomation_render.obj
+         Win32\Debug\testautomation_rwops.obj
+         Win32\Debug\testautomation_surface.obj
+         Win32\Debug\testautomation_events.obj
+         Win32\Debug\testautomation_keyboard.obj
+         Win32\Debug\testautomation_video.obj
+         Win32\Debug\testautomation_syswm.obj
+         Win32\Debug\testautomation_sdltest.obj
+         Win32\Debug\testautomation_mouse.obj
+         Win32\Debug\testautomation_timer.obj
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLtest\Win32\Debug\SDL2test.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.lib"
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Win32\Debug\testautomation.exe.embed.manifest" /manifest Win32\Debug\testautomation.exe.intermediate.manifest
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Win32\Debug\testautomation.exe.embed.manifest.res" Win32\Debug\testautomation_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Win32\Debug\testautomation.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\testautomation.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testautomation\Win32\Debug\testautomation.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Win32\Debug\testautomation.lib" /MACHINE:X86 Win32\Debug\testautomation.exe.embed.manifest.res
+         Win32\Debug\testautomation.obj
+         Win32\Debug\testautomation_audio.obj
+         Win32\Debug\testautomation_clipboard.obj
+         Win32\Debug\testautomation_main.obj
+         Win32\Debug\testautomation_platform.obj
+         Win32\Debug\testautomation_rect.obj
+         Win32\Debug\testautomation_render.obj
+         Win32\Debug\testautomation_rwops.obj
+         Win32\Debug\testautomation_surface.obj
+         Win32\Debug\testautomation_events.obj
+         Win32\Debug\testautomation_keyboard.obj
+         Win32\Debug\testautomation_video.obj
+         Win32\Debug\testautomation_syswm.obj
+         Win32\Debug\testautomation_sdltest.obj
+         Win32\Debug\testautomation_mouse.obj
+         Win32\Debug\testautomation_timer.obj
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLmain\Win32\Debug\SDL2main.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDLtest\Win32\Debug\SDL2test.lib"
+         "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\SDL\Win32\Debug\SDL2.lib"
+         testautomation_vs2010.vcxproj -> C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testautomation\Win32\Debug\testautomation.exe
+       PostBuildEvent:
+         Description: Copy SDL
+         copy "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\\SDL\Win32\Debug\SDL2.dll" "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testautomation\Win32\Debug\\SDL2.dll"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\testautomation.unsuccessfulbuild".
+         Touching "Win32\Debug\testautomation.lastbuildstate".
+     1>Done Building Project "C:\work\01-projects\85-gstqt\sdl\SDL-2.0\SDL-2.0.0-6940\VisualC\tests\testautomation\testautomation_vs2010.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.48

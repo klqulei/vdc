@@ -1,0 +1,45 @@
+﻿Build started 10/16/2013 1:19:55 PM.
+     1>Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\clitest\clitest.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\clitest.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\libcli\src\libcli\ /I..\libcli\src\plib\ /I"..\libcli\pthread-win32\include\\" /I..\libcli\src\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt clitest.cxx
+         clitest.cxx
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(200): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+                 c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(192) : while compiling class template member function 'LIBCLI::Command<C>::Command(C *,const char *,int (__thiscall LIBCLI::CLI::* )(char *,char **,int),LIBCLI::PRIVLEVEL,LIBCLI::MODE,const char *)'
+                 with
+                 [
+                     C=LIBCLI::CLI
+                 ]
+                 clitest.cxx(51) : see reference to class template instantiation 'LIBCLI::Command<C>' being compiled
+                 with
+                 [
+                     C=LIBCLI::CLI
+                 ]
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(204): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(123): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+                 c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(115) : while compiling class template member function 'LIBCLI::Command<C>::Command(C *,const char *,LIBCLI::PRIVLEVEL,LIBCLI::MODE,const char *)'
+                 with
+                 [
+                     C=LIBCLI::CLI
+                 ]
+     1>c:\work\01-projects\50-vr\src\vdc\3rdparty\libcli\libcli\src\libcli\command.hxx(127): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(238) : see declaration of 'strdup'
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Release\clitest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Release\ libcli.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\clitest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Release\clitest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Release\clitest.lib" /MACHINE:X86 Release\clitest.obj
+         Generating code
+         Finished generating code
+         clitest.vcxproj -> C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Release\clitest.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\Release\clitest.exe;#1" /manifest Release\clitest.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\clitest.unsuccessfulbuild".
+         Touching "Release\clitest.lastbuildstate".
+     1>Done Building Project "C:\work\01-projects\50-VR\src\vdc\3rdparty\libcli\clitest\clitest.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.36

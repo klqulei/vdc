@@ -1,0 +1,42 @@
+<RCC>
+    <qresource prefix="/VSCMainWindows"/>
+    <qresource prefix="/logo">
+        <file>resources/vscsmall.jpg</file>
+        <file>resources/splash.png</file>
+    </qresource>
+    <qresource prefix="/action">
+        <file>resources/surveillance.png</file>
+        <file>resources/configure.png</file>
+        <file>resources/devicelist.png</file>
+        <file>resources/list-add.png</file>
+        <file>resources/list-remove.png</file>
+        <file>resources/search.png</file>
+        <file>resources/user-trash-2.png</file>
+        <file>resources/user-trash-full-3.png</file>
+        <file>resources/videosearch.png</file>
+        <file>resources/apply.png</file>
+        <file>resources/cancel.png</file>
+        <file>resources/computer.png</file>
+        <file>resources/display.png</file>
+    </qresource>
+    <qresource prefix="/device">
+        <file>resources/recorder.png</file>
+        <file>resources/computer.png</file>
+        <file>resources/camera.png</file>
+        <file>resources/camera1.png</file>
+    </qresource>
+    <qresource prefix="/view">
+        <file>resources/1x1.png</file>
+        <file>resources/2x2.png</file>
+        <file>resources/3x3.png</file>
+        <file>resources/4x4.png</file>
+        <file>resources/12+1.png</file>
+        <file>resources/6.png</file>
+        <file>resources/audio.png</file>
+        <file>resources/media-playback.png</file>
+        <file>resources/playback-pause.png</file>
+        <file>resources/playback-stop.png</file>
+        <file>resources/ptz.gif</file>
+        <file>resources/media-r-playback.png</file>
+    </qresource>
+</RCC>

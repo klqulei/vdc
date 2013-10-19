@@ -1,0 +1,24 @@
+﻿Build started 2013/10/19 6:49:23.
+     1>Project "C:\work\03-vdc\vdc\vdc\vdc\win32\VSCloudNode.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\VSCloudNode.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(C:\work\03-vdc\vdc\vdc\vdc\win32\Win32\Debug\VSCloudNode.exe) does not match the Linker's OutputFile property value (C:\work\03-vdc\vdc\vdc\vdc\win32\Win32\Debug\VDC-NVR.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(VSCloudNode) does not match the Linker's OutputFile property value (VDC-NVR). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         All outputs are up-to-date.
+         VSCloudNode.vcxproj -> C:\work\03-vdc\vdc\vdc\vdc\win32\Win32\Debug\VSCloudNode.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\VSCloudNode.unsuccessfulbuild".
+         Touching "Debug\VSCloudNode.lastbuildstate".
+     1>Done Building Project "C:\work\03-vdc\vdc\vdc\vdc\win32\VSCloudNode.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.19

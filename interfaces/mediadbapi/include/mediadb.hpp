@@ -57,4 +57,5 @@ inline Observer<RecoderSink,SinkNotification> & MediaDB::getRecordSink(s32 nId)
 
 
 
+
 #endif /* _VDC_UTILITY_H_ */

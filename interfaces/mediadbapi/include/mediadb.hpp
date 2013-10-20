@@ -30,21 +30,14 @@ public:
     void removeRepository(std::string &strPath);
 	
 public:
-    void startRecord(s32 nId);
+    BOOL startRecord(s32 nId);
     void stopRecord(s32 nId);
-	
-public:
-    Observer<RecoderSink,SinkNotification> & getRecordSink(s32 nId);
-	
-private:
-    Observer<RecoderSink,SinkNotification> m_RecordSink;
-    
 
 };
 
-inline Observer<RecoderSink,SinkNotification> & MediaDB::getRecordSink(s32 nId)
+inline BOOL MediaDB::startRecord(s32 nId)
 {
-    return m_RecordSink;
+    return TRUE;
 }
 
 }
